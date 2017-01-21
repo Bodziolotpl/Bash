@@ -1,0 +1,13 @@
+#!/bin/bash
+echo "Tworze repozytorium 'git init'"
+git init
+echo "Dodaje plik o nazwie 'f'"
+echo >> "f" "costam napisane tu jest"
+echo "Dodaje plik o nazwie f do repozytorium 'git add f'"
+git add f
+echo "Dodanie pliku 'f_ignore'"
+echo >> "f_ignore" "napis"
+echo "Stowerze pliku '.gitignore' i wpisanie do niego pliku 'f_ignore'"
+echo >> ".gitignore" "f_ignore"
+echo "Stworzenie nowego brancha 'NowyBranch'"
+git branch NowyBranch
